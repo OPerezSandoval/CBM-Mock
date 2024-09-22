@@ -1,5 +1,5 @@
 # Python image to use from Docker hub
-FROM python:3.9-slim
+FROM --platform=linux/amd64 python:3.9-slim
 
 # Working Directory
 WORKDIR /app
